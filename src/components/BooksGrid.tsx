@@ -47,19 +47,22 @@ const books = [
 ];
 
 const BooksGrid = () => {
+  const whatsappMessage = encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!");
+  const whatsappUrl = `https://wa.me/5563981471486?text=${whatsappMessage}`;
+
   return (
-    <section className="py-24 bg-background">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-6">
+    <section className="py-16 sm:py-24 bg-background">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">
             O que você vai receber
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Uma coleção completa de livros digitais ilustrados, cada um focado em um Salmo específico
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto px-2">
+            Uma coleção completa de <strong>14 livros digitais em PDF</strong>, cada um focado em um Salmo específico
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3 sm:gap-6 md:gap-8 mb-8 sm:mb-12">
           {books.map((book, index) => (
             <Card key={index} className="group border-none shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-2 bg-card/90 backdrop-blur-sm overflow-hidden">
               <CardContent className="p-0">
@@ -70,14 +73,14 @@ const BooksGrid = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-primary mb-2">
+                <div className="p-2 sm:p-4 lg:p-6">
+                  <h3 className="text-sm sm:text-base lg:text-xl font-semibold text-primary mb-1 sm:mb-2">
                     {book.title}
                   </h3>
-                  <p className="text-muted-foreground text-lg">
+                  <p className="text-xs sm:text-sm lg:text-lg text-muted-foreground hidden sm:block">
                     {book.subtitle}
                   </p>
-                  <div className="mt-4 text-sm text-sage font-medium">
+                  <div className="mt-2 sm:mt-4 text-xs sm:text-sm text-sage font-medium">
                     {book.reference}
                   </div>
                 </div>
@@ -87,18 +90,21 @@ const BooksGrid = () => {
         </div>
         
         <div className="text-center">
-          <div className="bg-card/60 backdrop-blur-sm rounded-3xl p-8 shadow-medium max-w-2xl mx-auto">
-            <p className="text-lg text-muted-foreground mb-6">
+          <div className="bg-card/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-medium max-w-2xl mx-auto">
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 px-2">
               Adquira individualmente por <span className="text-primary font-semibold">R$ 6,49</span> cada
             </p>
-            <p className="text-2xl font-bold text-primary mb-8">
-              ou leve todos por apenas <span className="text-golden text-3xl">R$ 37,97</span>
+            <p className="text-lg sm:text-xl md:text-2xl font-bold text-primary mb-6 sm:mb-8 px-2">
+              ou leve todos por apenas <span className="text-golden text-xl sm:text-2xl md:text-3xl">R$ 37,97</span>
             </p>
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-4 text-lg font-semibold rounded-xl shadow-medium hover:shadow-soft transition-all duration-300"
+              asChild
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 sm:px-8 md:px-10 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-xl shadow-medium hover:shadow-soft transition-all duration-300 w-full sm:w-auto"
             >
-              Quero a coleção completa
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                Quero a coleção completa
+              </a>
             </Button>
           </div>
         </div>

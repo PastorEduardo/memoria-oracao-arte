@@ -14,38 +14,38 @@ const SpecialOfferSection = () => {
             ✨ Oferta Especial
           </div>
           
-          <h2 className="text-5xl md:text-6xl font-serif font-bold text-primary mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">
             Toda a coleção Memoria & Oração
           </h2>
           
-          <div className="flex items-center justify-center gap-4 mb-8">
-            <span className="text-3xl text-muted-foreground line-through">R$ 90,86</span>
-            <span className="text-6xl font-bold text-golden">R$ 37,97</span>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
+            <span className="text-xl sm:text-2xl md:text-3xl text-muted-foreground line-through">R$ 90,86</span>
+            <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-golden">R$ 37,97</span>
           </div>
           
-          <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            São 14 livros digitais ilustrados, prontos para imprimir e transformar sua devoção diária
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 sm:mb-12 max-w-2xl mx-auto px-2">
+            São <strong>14 livros digitais em PDF</strong> ilustrados, prontos para imprimir em casa e transformar sua devoção diária
           </p>
         </div>
         
-        <div className="bg-card/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-strong border border-border/50">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div className="bg-card/90 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-strong border border-border/50">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
             <div>
-              <h3 className="text-2xl font-semibold text-primary mb-6">
+              <h3 className="text-xl sm:text-2xl font-semibold text-primary mb-4 sm:mb-6">
                 O que está incluído:
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2 sm:space-y-3">
                 {[
-                  "14 livros digitais em alta resolução",
+                  "14 livros digitais PDF em alta resolução",
                   "Ilustrações originais em aquarela",
                   "Textos bíblicos cuidadosamente selecionados",
-                  "Arquivos PDF prontos para impressão",
+                  "Arquivos prontos para impressão caseira",
                   "Formatos compatíveis com qualquer impressora",
                   "Acesso imediato após a compra"
                 ].map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-sage flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground">{item}</span>
+                  <li key={index} className="flex items-start gap-2 sm:gap-3">
+                    <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                    <span className="text-sm sm:text-base text-muted-foreground">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -57,11 +57,14 @@ const SpecialOfferSection = () => {
                 <div className="text-lg opacity-90 mb-6">
                   Economize R$ 52,89
                 </div>
-                <Button 
+                 <Button 
                   size="lg" 
-                  className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-lg py-4 rounded-xl shadow-soft"
+                  asChild
+                  className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base sm:text-lg py-3 sm:py-4 rounded-xl shadow-soft"
                 >
-                  Quero a coleção completa agora
+                  <a href={`https://wa.me/5563981471486?text=${encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!")}`} target="_blank" rel="noopener noreferrer">
+                    Quero a coleção completa agora
+                  </a>
                 </Button>
               </div>
             </div>

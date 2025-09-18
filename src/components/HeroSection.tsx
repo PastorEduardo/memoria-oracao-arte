@@ -1,7 +1,11 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
+import logoHorizontal from "@/assets/logo-horizontal.svg";
 
 const HeroSection = () => {
+  const whatsappMessage = encodeURIComponent("Olá! Tenho interesse na coleção Memoria & Oração. Gostaria de mais informações!");
+  const whatsappUrl = `https://wa.me/5563981471486?text=${whatsappMessage}`;
+
   return (
     <section 
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
@@ -10,23 +14,35 @@ const HeroSection = () => {
       {/* Overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/40" />
       
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary leading-tight mb-6">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
+        {/* Logo */}
+        <div className="mb-8 sm:mb-12">
+          <img 
+            src={logoHorizontal} 
+            alt="Memoria & Oração" 
+            className="h-16 sm:h-20 md:h-24 mx-auto"
+          />
+        </div>
+
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-bold bg-gradient-to-br from-primary via-golden to-spiritual bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">
           Memoria & Oração
         </h1>
-        <h2 className="text-xl md:text-2xl text-primary/80 mb-4 font-medium">
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary/80 mb-4 sm:mb-6 font-medium px-2">
           Uma coleção para guardar a Palavra no coração
         </h2>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
-          Descubra a beleza dos Salmos e textos bíblicos em uma série de livros digitais 
-          ilustrados em aquarela, prontos para imprimir e usar em sua devoção diária.
+        <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto mb-8 sm:mb-12 leading-relaxed px-2">
+          Descubra a beleza dos Salmos e textos bíblicos em uma série de <strong>14 livros digitais em PDF</strong> 
+          ilustrados em aquarela, prontos para imprimir em casa e usar em sua devoção diária.
         </p>
         
         <Button 
           size="lg" 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-xl font-semibold rounded-2xl shadow-strong transition-all duration-300 hover:shadow-medium hover:scale-105"
+          asChild
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-semibold rounded-2xl shadow-strong transition-all duration-300 hover:shadow-medium hover:scale-105 w-full sm:w-auto"
         >
-          Quero a coleção completa por R$ 37,97
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            Quero a coleção completa por R$ 37,97
+          </a>
         </Button>
         
         {/* Decorative elements */}
