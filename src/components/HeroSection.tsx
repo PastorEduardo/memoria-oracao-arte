@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
-import logoHorizontal from "@/assets/logo-horizontal.svg";
+import logoVertical from "@/assets/logo-vertical.svg";
 
 const HeroSection = () => {
   const whatsappMessage = encodeURIComponent("Olá! Tenho interesse na coleção Memoria & Oração. Gostaria de mais informações!");
@@ -18,9 +18,9 @@ const HeroSection = () => {
         {/* Logo */}
         <div className="mb-8 sm:mb-12">
           <img 
-            src={logoHorizontal} 
+            src={logoVertical} 
             alt="Memoria & Oração" 
-            className="h-16 sm:h-20 md:h-24 mx-auto"
+            className="h-24 sm:h-28 md:h-32 lg:h-36 mx-auto"
           />
         </div>
 
@@ -38,9 +38,9 @@ const HeroSection = () => {
         <Button 
           size="lg" 
           asChild
-          className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-semibold rounded-2xl shadow-strong transition-all duration-300 hover:shadow-medium hover:scale-105 w-full sm:w-auto"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 sm:px-8 md:px-12 py-3 sm:py-4 md:py-6 text-base sm:text-lg md:text-xl font-semibold rounded-2xl shadow-strong transition-all duration-300 hover:shadow-medium hover:scale-105 w-full sm:w-auto min-h-[44px] sm:min-h-[56px]"
         >
-          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
             Quero a coleção completa por R$ 37,97
           </a>
         </Button>
