@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
+const whatsappUrl = `https://wa.me/5563981471486?text=${encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!")}`;
+
 const SpecialOfferSection = () => {
   return (
     <section className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden">
@@ -35,19 +37,30 @@ const SpecialOfferSection = () => {
                 O que está incluído:
               </h3>
               <ul className="space-y-2 sm:space-y-3">
-                {[
-                  "14 livros digitais PDF em alta resolução",
-                  "Ilustrações originais em aquarela",
-                  "Textos bíblicos cuidadosamente selecionados",
-                  "Arquivos prontos para impressão caseira",
-                  "Formatos compatíveis com qualquer impressora",
-                  "Acesso imediato após a compra"
-                ].map((item, index) => (
-                  <li key={index} className="flex items-start gap-2 sm:gap-3">
-                    <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
-                    <span className="text-sm sm:text-base text-muted-foreground">{item}</span>
-                  </li>
-                ))}
+                <li className="flex items-start gap-2 sm:gap-3">
+                  <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                  <span className="text-sm sm:text-base text-muted-foreground">14 livros digitais PDF em alta resolução</span>
+                </li>
+                <li className="flex items-start gap-2 sm:gap-3">
+                  <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                  <span className="text-sm sm:text-base text-muted-foreground">Ilustrações originais em aquarela</span>
+                </li>
+                <li className="flex items-start gap-2 sm:gap-3">
+                  <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                  <span className="text-sm sm:text-base text-muted-foreground">Textos bíblicos cuidadosamente selecionados</span>
+                </li>
+                <li className="flex items-start gap-2 sm:gap-3">
+                  <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                  <span className="text-sm sm:text-base text-muted-foreground">Arquivos prontos para impressão caseira</span>
+                </li>
+                <li className="flex items-start gap-2 sm:gap-3">
+                  <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                  <span className="text-sm sm:text-base text-muted-foreground">Formatos compatíveis com qualquer impressora</span>
+                </li>
+                <li className="flex items-start gap-2 sm:gap-3">
+                  <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sage flex-shrink-0 mt-0.5" />
+                  <span className="text-sm sm:text-base text-muted-foreground">Acesso imediato após a compra</span>
+                </li>
               </ul>
             </div>
             
@@ -62,7 +75,7 @@ const SpecialOfferSection = () => {
                   asChild
                   className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base sm:text-lg py-3 sm:py-4 rounded-xl shadow-soft"
                 >
-                  <a href={`https://wa.me/5563981471486?text=${encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!")}`} target="_blank" rel="noopener noreferrer">
+                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                     Quero a coleção completa agora
                   </a>
                 </Button>
