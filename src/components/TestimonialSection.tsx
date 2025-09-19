@@ -14,43 +14,56 @@ const TestimonialSection = () => {
           </div>
           
           <div className="order-1 lg:order-2">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-6 sm:mb-8 px-2">
-              Ideal para seu momento com Deus
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">
+              4 Passos para Educar uma Criança
             </h2>
             
-            <div className="space-y-4 sm:space-y-6">
+            <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 px-2 leading-relaxed">
+              Como a coleção <strong>"Memória & Oração"</strong> abarca todos os aspectos necessários para plantar sementes no coração das crianças.
+            </p>
+            
+            <div className="space-y-4 sm:space-y-5">
               <div className="bg-card/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-soft">
                 <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2 sm:mb-3">
-                  ✨ Momento de Oração
+                  <span className="text-sage font-bold">C</span> - Contemplar
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Perfeitos para sua devoção pessoal matinal ou noturna, com <strong>PDFs imprimíveis</strong> que edificam o coração.
+                  Apresentar o salmo de forma <strong>cativante</strong>. Quando a criança é encantada, o ato de ler se transforma em contemplação.
                 </p>
               </div>
               
               <div className="bg-card/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-soft">
                 <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2 sm:mb-3">
-                  🏠 Célula e Grupos
+                  <span className="text-sage font-bold">R</span> - Recitar
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Ideais para compartilhar em células, grupos de oração ou estudos bíblicos em família.
+                  Salmos são <strong>poesias</strong>. Ao recitá-los, transmita a emoção do texto para que a criança sinta cada palavra.
                 </p>
               </div>
               
               <div className="bg-card/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-soft">
                 <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2 sm:mb-3">
-                  📖 Escola Bíblica
+                  <span className="text-sage font-bold">E</span> - Envolver
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Excelente material de apoio para escolas bíblicas e ministérios de ensino.
+                  Conectar o salmo com a <strong>vida da criança</strong>. Relacione o texto com experiências do dia a dia da família.
+                </p>
+              </div>
+              
+              <div className="bg-card/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-soft">
+                <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2 sm:mb-3">
+                  <span className="text-sage font-bold">R</span> - Repetir
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                  Crianças adoram repetir o que as <strong>encanta</strong>. Quanto mais repetirem, mais profundo será o aprendizado.
                 </p>
               </div>
             </div>
             
             <div className="mt-6 sm:mt-8">
               <blockquote className="text-base sm:text-lg italic text-sage border-l-4 border-sage pl-4 sm:pl-6">
-                "Na minha meditação se acendeu fogo."
-                <footer className="text-sm text-muted-foreground mt-2">— Salmo 39:3</footer>
+                "Educar é plantar sementes no coração das crianças, para que colham frutos virtuosos na vida adulta."
+                <footer className="text-sm text-muted-foreground mt-2">— Método CRER</footer>
               </blockquote>
             </div>
           </div>
