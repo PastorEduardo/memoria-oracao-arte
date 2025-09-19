@@ -16,16 +16,16 @@ const TestimonialSection = () => {
         </div>
 
         {/* Grid com imagem e cards CRER */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start mb-12 sm:mb-16">
-          <div className="order-2 lg:order-1">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-stretch">
+          <div className="order-2 lg:order-1 flex">
             <img 
               src={motherChildReading} 
               alt="Mãe lendo livro da coleção Memória & Oração para sua criança"
-              className="w-full h-full min-h-[500px] object-cover rounded-2xl sm:rounded-3xl shadow-strong"
+              className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong"
             />
           </div>
           
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 flex flex-col justify-between">
             <div className="space-y-4 sm:space-y-5">
               <div className="bg-card/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-soft">
                 <h3 className="text-lg sm:text-xl font-semibold text-primary mb-2 sm:mb-3">
@@ -63,15 +63,15 @@ const TestimonialSection = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
 
-        {/* Conclusão centralizada */}
-        <div className="text-center">
-          <blockquote className="text-base sm:text-lg italic text-sage max-w-2xl mx-auto">
-            "Educar é plantar sementes no coração das crianças, para que colham frutos virtuosos na vida adulta."
-            <footer className="text-sm text-muted-foreground mt-2">— Método CRER</footer>
-          </blockquote>
+            {/* Conclusão alinhada à direita */}
+            <div className="text-right mt-6 sm:mt-8">
+              <blockquote className="text-base sm:text-lg italic text-sage">
+                "Educar é plantar sementes no coração das crianças, para que colham frutos virtuosos na vida adulta."
+                <footer className="text-sm text-muted-foreground mt-2">— Método CRER</footer>
+              </blockquote>
+            </div>
+          </div>
         </div>
       </div>
     </section>
