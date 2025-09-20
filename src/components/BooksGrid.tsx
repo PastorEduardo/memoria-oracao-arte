@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { MessageCircle } from "lucide-react";
 import salmo100 from "@/assets/salmo-100.png";
 import salmo51 from "@/assets/salmo-51.png";
 import salmo125 from "@/assets/salmo-125.png";
@@ -129,8 +130,9 @@ const BooksGrid = () => {
                     <p className="text-xs sm:text-sm text-muted-foreground hidden sm:block mb-1">
                       {book.subtitle}
                     </p>
-                    <div className="text-xs sm:text-sm text-sage font-medium mb-2">
-                      {book.reference}
+                    <div className="flex items-center gap-1 text-xs sm:text-sm text-sage font-medium mb-2">
+                      <MessageCircle size={14} />
+                      <span>fale conosco</span>
                     </div>
                     <div className="text-xs sm:text-sm font-bold text-golden">
                       {book.price}
