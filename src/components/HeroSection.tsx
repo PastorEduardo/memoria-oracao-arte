@@ -13,7 +13,7 @@ const HeroSection = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto sm:px-6 px-[16px] py-0">
         {/* Logo */}
-        <div className="mb-8 sm:mb-12 text-center">
+        <div className="mb-8 sm:mb-12 text-center py-[5px]">
           <img src={logoVertical} alt="Memoria & Oração" className="h-24 sm:h-28 md:h-32 lg:h-36 mx-auto" />
         </div>
 
@@ -46,11 +46,7 @@ const HeroSection = () => {
 
           {/* Right Image */}
           <div className="flex justify-center lg:justify-end items-start">
-            <img 
-              src={heroFamilyReading} 
-              alt="Família cristã lendo juntos - Coleção Memória & Oração" 
-              className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong max-w-md lg:max-w-lg xl:max-w-xl"
-            />
+            <img src={heroFamilyReading} alt="Família cristã lendo juntos - Coleção Memória & Oração" className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong max-w-md lg:max-w-lg xl:max-w-xl" />
           </div>
         </div>
         
