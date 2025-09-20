@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
 import logoVertical from "@/assets/logo-vertical.svg";
-import heroBooksTablet from "@/assets/hero-books-tablet.png";
+import heroFamilyReading from "@/assets/hero-family-reading.png";
 const HeroSection = () => {
   const whatsappMessage = encodeURIComponent("Olá! Tenho interesse na coleção Memoria & Oração. Gostaria de mais informações!");
   const whatsappUrl = `https://wa.me/5563981471486?text=${whatsappMessage}`;
@@ -45,11 +45,11 @@ const HeroSection = () => {
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end items-start">
             <img 
-              src={heroBooksTablet} 
-              alt="Coleção Memória & Oração - Livros digitais ilustrados" 
-              className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto object-contain"
+              src={heroFamilyReading} 
+              alt="Família cristã lendo juntos - Coleção Memória & Oração" 
+              className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong max-w-md lg:max-w-lg xl:max-w-xl"
             />
           </div>
         </div>
