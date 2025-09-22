@@ -112,7 +112,7 @@ const BooksGrid = () => {
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">Uma coleção completa para ensinar os fundamentos da fé cristã às crianças</h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto px-2">
-            Uma coleção completa de <strong>14 livros digitais em PDF</strong>, cada um focado em um Salmo específico
+            Uma coleção completa de <strong>14 livros digitais em PDF</strong>. O textos foram escolhidos por sua beleza literária e por tratarem de temas centrais da fé cristã: Criação e Queda, Arrependimento e Perdão, Regeneração e Vida Cristã, Promessas e Esperança futura.
           </p>
         </div>
         
