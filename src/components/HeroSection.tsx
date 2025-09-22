@@ -41,7 +41,7 @@ const HeroSection = () => {
 
             {/* Subheadline */}
             <h2 className="text-lg sm:text-xl md:text-2xl text-primary/80 mb-4 sm:mb-6 font-medium leading-relaxed">
-              A coleção Memória & Oração apoia pais cristãos no ensino das
+              A coleção <strong>Memória & Oração</strong> apoia pais cristãos no ensino das
               virtudes da fé, tornando a memorização bíblica simples, bela e
               significativa.
             </h2>
