@@ -19,7 +19,7 @@ const HeroSection = () => {
       {/* Overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/40" />
 
-      <div className="relative z-10 max-w-7xl mx-auto sm:px-6 px-[16px] pt-8 sm:pt-12 pb-8 sm:pb-12">
+      <div className="relative z-10 max-w-7xl mx-auto sm:px-6 px-[16px] pt-8 sm:pt-12 pb-8 sm:pb-16">
         {/* Logo */}
         <div className="mb-8 sm:mb-12 text-center py-[5px]">
           <img
