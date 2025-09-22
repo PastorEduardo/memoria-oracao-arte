@@ -65,7 +65,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center"
               >
-                Quero a coleção completa por R$ 37,00
+                Quero a coleção completa por R$ 37,97
               </a>
             </Button>
           </div>
