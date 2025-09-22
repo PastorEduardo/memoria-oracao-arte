@@ -110,7 +110,7 @@ const BooksGrid = () => {
   return <section className="py-16 sm:py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">O que você vai receber ?</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">Uma coleção completa para ensinar os fundamentos da fé cristã às crianças</h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto px-2">
             Uma coleção completa de <strong>14 livros digitais em PDF</strong>, cada um focado em um Salmo específico
           </p>
