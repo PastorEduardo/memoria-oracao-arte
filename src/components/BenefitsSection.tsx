@@ -39,7 +39,7 @@ const BenefitsSection = () => {
                 <Printer className="w-6 h-6 sm:w-8 sm:h-8 text-golden-foreground" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-primary mb-3 sm:mb-4 leading-tight px-1">Arquivos digitais prontos para impressão caseira</h3>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Qualidade profissional para impressão doméstica. Você pode </p>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Qualidade profissional para impressão doméstica. Você pode imprimir infinitas cópias .</p>
             </CardContent>
           </Card>
 
