@@ -38,9 +38,7 @@ const BenefitsSection = () => {
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-golden to-sage rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <Printer className="w-6 h-6 sm:w-8 sm:h-8 text-golden-foreground" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-primary mb-3 sm:mb-4 leading-tight px-1">
-                Arquivos digitais prontos para imprimir
-              </h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-primary mb-3 sm:mb-4 leading-tight px-1">Arquivos digitais prontos para impressão caseira</h3>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Qualidade profissional para impressão doméstica. Você pode </p>
             </CardContent>
           </Card>
