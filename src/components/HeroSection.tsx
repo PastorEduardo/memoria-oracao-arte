@@ -2,20 +2,12 @@ import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
 import logoVertical from "@/assets/logo-vertical.svg";
 import heroFamilyReading from "@/assets/hero-family-reading.png";
-
 const HeroSection = () => {
-  const whatsappMessage = encodeURIComponent(
-    "Olá! Tenho interesse na coleção Memoria & Oração. Gostaria de mais informações!"
-  );
+  const whatsappMessage = encodeURIComponent("Olá! Tenho interesse na coleção Memoria & Oração. Gostaria de mais informações!");
   const whatsappUrl = `https://wa.me/5563981471486?text=${whatsappMessage}`;
-
-  return (
-    <section
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat pt-16 sm:pt-20"
-      style={{
-        backgroundImage: `url(${heroBackground})`,
-      }}
-    >
+  return <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat pt-16 sm:pt-20" style={{
+    backgroundImage: `url(${heroBackground})`
+  }}>
       {/* Overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/40" />
 
@@ -26,11 +18,7 @@ const HeroSection = () => {
           <div className="flex flex-col justify-center text-center lg:text-left">
             {/* Logo */}
             <div className="mb-6 sm:mb-8 flex justify-center lg:justify-center">
-              <img
-                src={logoVertical}
-                alt="Memoria & Oração"
-                className="h-20 sm:h-24 md:h-28"
-              />
+              <img src={logoVertical} alt="Memoria & Oração" className="h-60 sm:h-24 md:h-28" />
             </div>
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold bg-gradient-to-br from-primary via-golden to-spiritual bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">
@@ -53,17 +41,8 @@ const HeroSection = () => {
             </p>
 
             {/* CTA Button */}
-            <Button
-              size="lg"
-              asChild
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 sm:px-8 md:px-12 py-3 sm:py-4 md:py-6 text-base sm:text-lg md:text-xl font-semibold rounded-2xl shadow-strong transition-all duration-300 hover:shadow-medium hover:scale-105 w-full sm:w-auto min-h-[44px] sm:min-h-[56px]"
-            >
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center"
-              >
+            <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 sm:px-8 md:px-12 py-3 sm:py-4 md:py-6 text-base sm:text-lg md:text-xl font-semibold rounded-2xl shadow-strong transition-all duration-300 hover:shadow-medium hover:scale-105 w-full sm:w-auto min-h-[44px] sm:min-h-[56px]">
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                 Quero a coleção completa por R$ 37,97
               </a>
             </Button>
@@ -71,11 +50,7 @@ const HeroSection = () => {
 
           {/* Right Image */}
           <div className="flex justify-center lg:justify-end items-stretch">
-            <img
-              src={heroFamilyReading}
-              alt="Família cristã lendo juntos - Coleção Memória & Oração"
-              className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong"
-            />
+            <img src={heroFamilyReading} alt="Família cristã lendo juntos - Coleção Memória & Oração" className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong" />
           </div>
         </div>
 
@@ -88,8 +63,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
