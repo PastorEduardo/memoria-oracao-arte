@@ -51,7 +51,7 @@ const BenefitsSection = () => {
               <h3 className="text-lg sm:text-xl font-semibold text-primary mb-3 sm:mb-4 leading-tight px-1">
                 Ideais para memorização e oração
               </h3>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Perfeitos para seu momento devocional diário em família. Ens</p>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Perfeitos para seu momento devocional diário em família. Ensine seu filho a orar e amar a Palavra.</p>
             </CardContent>
           </Card>
         </div>
