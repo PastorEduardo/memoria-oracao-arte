@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className="flex flex-col justify-center text-center lg:text-left">
             {/* Logo */}
             <div className="mb-6 sm:mb-8 flex justify-center lg:justify-center">
-              <img src={logoVertical} alt="Memoria & Oração" className="h-40 md:h-60 w-auto mx-auto lg:mx-0 transition-all duration-300" />
+              <img src={logoVertical} alt="Memoria & Oração" className="h-40 md h-60 w-auto mx-auto lg:mx-0 transition-all duration-300" />
             </div>
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold bg-gradient-to-br from-primary via-golden to-spiritual bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">
