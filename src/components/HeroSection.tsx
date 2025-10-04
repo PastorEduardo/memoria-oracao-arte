@@ -11,7 +11,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+      className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat pt-16 sm:pt-20"
       style={{
         backgroundImage: `url(${heroBackground})`,
       }}
@@ -19,20 +19,19 @@ const HeroSection = () => {
       {/* Overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/40" />
 
-      <div className="relative z-10 max-w-7xl mx-auto sm:px-6 px-[16px] pt-8 sm:pt-12 pb-8 sm:pb-16">
-        {/* Logo */}
-        <div className="mb-8 sm:mb-12 text-center py-[5px]">
-          <img
-            src={logoVertical}
-            alt="Memoria & Oração"
-            className="h-24 sm:h-28 md:h-32 lg:h-36 mx-auto"
-          />
-        </div>
-
+      <div className="relative z-10 max-w-7xl mx-auto sm:px-6 px-[16px] py-8 sm:py-12">
         {/* Hero Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
           {/* Left Content */}
-          <div className="flex flex-col justify-center h-full text-center lg:text-left">
+          <div className="flex flex-col justify-center text-center lg:text-left">
+            {/* Logo */}
+            <div className="mb-6 sm:mb-8 flex justify-center lg:justify-center">
+              <img
+                src={logoVertical}
+                alt="Memoria & Oração"
+                className="h-20 sm:h-24 md:h-28"
+              />
+            </div>
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold bg-gradient-to-br from-primary via-golden to-spiritual bg-clip-text text-transparent leading-tight mb-4 sm:mb-6">
               Formação cristã dos seus filhos começa com a memorização das
