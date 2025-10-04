@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-
 const whatsappUrl = `https://wa.me/5563981471486?text=${encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!")}`;
-
 const SpecialOfferSection = () => {
-  return (
-    <section className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden">
+  return <section className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-32 h-32 bg-golden/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-sage/10 rounded-full blur-3xl" />
@@ -70,14 +67,8 @@ const SpecialOfferSection = () => {
                 <div className="text-lg opacity-90 mb-6">
                   Economize R$ 52,89
                 </div>
-                 <Button 
-                  size="lg" 
-                  asChild
-                  className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base sm:text-lg py-3 sm:py-4 rounded-xl shadow-soft"
-                >
-                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                    Quero a coleção completa agora
-                  </a>
+                 <Button size="lg" asChild className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base sm:text-lg py-3 sm:py-4 rounded-xl shadow-soft">
+                  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">Quero a coleção!</a>
                 </Button>
               </div>
             </div>
@@ -90,8 +81,6 @@ const SpecialOfferSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default SpecialOfferSection;
