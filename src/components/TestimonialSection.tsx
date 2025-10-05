@@ -11,13 +11,12 @@ const TestimonialSection = () => {
           </h2>
           
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Como a coleção <strong>"Memória & Oração"</strong> abarca todos os aspectos necessários para plantar sementes no coração das crianças.
-            
-            Toda mãe cristãs quer ver seus filhos apaixonados pela Palavra — mas enfrentam um desafio: as crianças parecem mais interessadas nas telas do que na Bíblia.
-            
+                     
+            Toda mãe cristãs quer ver seus filhos <strong>apaixonados pela Palavra</strong> — mas enfrentam um desafio: as crianças parecem mais interessadas nas telas do que na Bíblia.
+          </p>
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             O problema não é falta de fé. É a forma como tentamos ensinar. A maioria dos materiais infantis simplifica demais as Escrituras para que as crianças entendão tudo, isso acaba diluindo sua força e profundidade.
-            
-            Mas antes de entender, é preciso guardar. Antes de explicar, é preciso plantar.
+            Mas antes de <strong>entender</strong>, é preciso <strong>guardar</strong>. Antes de <strong>explicar</strong>, é preciso <strong>plantar</strong>.
           </p>
         </div>
 
