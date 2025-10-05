@@ -1,16 +1,10 @@
 import logoHorizontal from "@/assets/logo-horizontal.svg";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gradient-to-br from-primary via-primary/95 to-primary/90 text-primary-foreground">
+  return <footer className="bg-gradient-to-br from-primary via-primary/95 to-primary/90 text-primary-foreground">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
           <div className="flex justify-center mb-8">
-            <img 
-              src={logoHorizontal} 
-              alt="Memoria & Oração Logo" 
-              className="h-16 md:h-20 filter brightness-0 invert"
-            />
+            <img src={logoHorizontal} alt="Memoria & Oração Logo" className="h-16 md:h-20 filter brightness-0 invert" />
           </div>
           
           <div className="max-w-2xl mx-auto mb-8">
@@ -47,7 +41,7 @@ const Footer = () => {
           <div className="text-center">
             <h3 className="font-semibold text-lg mb-4">Garantia</h3>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>30 Dias</li>
+              <li>7 Dias</li>
               <li>100% do Dinheiro de Volta</li>
               <li>Suporte Dedicado</li>
               <li>Satisfação Garantida</li>
@@ -75,8 +69,6 @@ const Footer = () => {
       
       {/* Decorative watercolor bottom */}
       <div className="h-4 bg-gradient-to-r from-golden/30 via-sage/30 to-spiritual/30" />
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
