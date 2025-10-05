@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 const whatsappUrl = `https://wa.me/5563981471486?text=${encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!")}`;
 const SpecialOfferSection = () => {
-  return <section id="oferta" className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden scroll-mt-20">
+  return <section className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-32 h-32 bg-golden/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-sage/10 rounded-full blur-3xl" />
@@ -13,9 +13,7 @@ const SpecialOfferSection = () => {
             ✨ Oferta Especial
           </div>
           
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">
-            Toda a coleção Memoria & Oração
-          </h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">Toda a coleção Memória &amp; Oração</h2>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-8">
             <span className="text-xl sm:text-2xl md:text-3xl text-muted-foreground line-through">R$ 90,86</span>
