@@ -9,15 +9,18 @@ const TestimonialSection = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6">
             4 Passos para Educar uma Criança
           </h2>
-          
+          <div className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-4">
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                      
             Toda mãe cristãs quer ver seus filhos <strong>apaixonados pela Palavra</strong> — mas enfrentam um desafio: as crianças parecem mais interessadas nas telas do que na Bíblia.
           </p>
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             O problema não é falta de fé. É a forma como tentamos ensinar. A maioria dos materiais infantis simplifica demais as Escrituras para que as crianças entendão tudo, isso acaba diluindo sua força e profundidade.
+          </p>
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">  
             Mas antes de <strong>entender</strong>, é preciso <strong>guardar</strong>. Antes de <strong>explicar</strong>, é preciso <strong>plantar</strong>.
           </p>
+            </div>
         </div>
 
         {/* Grid com imagem e cards CRER */}
