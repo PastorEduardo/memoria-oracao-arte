@@ -1,8 +1,6 @@
 import motherChildReading from "@/assets/mother-child-reading.jpg";
-
 const TestimonialSection = () => {
-  return (
-    <section className="py-16 sm:py-24 bg-gradient-section">
+  return <section className="py-16 sm:py-24 bg-gradient-section">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header centralizado */}
         <div className="text-center mb-12 sm:mb-16">
@@ -26,20 +24,13 @@ const TestimonialSection = () => {
         {/* Grid com imagem e cards CRER */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-stretch">
           <div className="order-2 lg:order-1 flex">
-            <img 
-              src={motherChildReading} 
-              alt="Mãe lendo livro da coleção Memória & Oração para sua criança"
-              className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong"
-            />
+            <img src={motherChildReading} alt="Mãe lendo livro da coleção Memória & Oração para sua criança" className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-strong" />
           </div>
           
           <div className="order-1 lg:order-2 flex flex-col justify-between">
             {/* Parágrafo introdutório ao método CRER */}
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-6 sm:mb-8">
-              A coleção <strong>Memória & Oração</strong> está fundamentada em uma verdade: Tudo o que uma mãe precisa para plantar sementes de fé no coração dos filhos é CRER.
-            </p>
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-6 sm:mb-8">
-            Mais do que acreditar, <strong>C.R.E.R.</strong> é um método simples e transformador, endenda:
+            <p className="text-base text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-center sm:text-lg">
+              A coleção "Memória & Oração" está fundamentada em uma verdade: tudo o que uma mãe precisa para plantar sementes de fé no coração dos filhos é CRER. Mais do que acreditar, CRER é um método simples e transformador:
             </p>
             
             <div className="space-y-4 sm:space-y-5">
@@ -90,8 +81,6 @@ const TestimonialSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default TestimonialSection;
