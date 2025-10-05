@@ -113,9 +113,7 @@ const FAQSection = () => {
               </div>
             </AccordionTrigger>
             <AccordionContent className="pb-4 sm:pb-6 pl-10 sm:pl-16 pr-2 sm:pr-4">
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Oferecemos garantia de 30 dias. Se não ficar satisfeito com a qualidade dos materiais, devolvemos 100% do seu dinheiro.
-              </p>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Oferecemos garantia de 7 dias. Se não ficar satisfeito com a qualidade dos materiais, devolvemos 100% do seu dinheiro.</p>
             </AccordionContent>
           </AccordionItem>
         </Accordion>
