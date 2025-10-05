@@ -29,7 +29,7 @@ const BenefitsSection = () => {
                 <Palette className="w-6 h-6 sm:w-8 sm:h-8 text-golden-foreground" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-primary mb-3 sm:mb-4 leading-tight px-1">Livros ilustrados em belíssimas aquarelas clássicas</h3>
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Belas ilustrações para encantar e cativar a atenção das crianças. Sem acessos ou hiperestímulos.</p>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Belas ilustrações para encantar e cativar a atenção das crianças. Sem excessos ou hiperestímulos.</p>
             </CardContent>
           </Card>
 
