@@ -7,7 +7,7 @@ const TestimonialSection = () => {
         {/* Header centralizado */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6">
-            4 Passos para Educar uma Criança
+            O Segredo para Ensinar a Fé que Permanece
           </h2>
           <div className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-4">
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
