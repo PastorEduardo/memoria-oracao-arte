@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 const whatsappUrl = `https://wa.me/5563981471486?text=${encodeURIComponent("Olá! Quero adquirir a coleção completa Memoria & Oração por R$ 37,97!")}`;
 const SpecialOfferSection = () => {
-  return <section className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden">
+  return <section id="oferta" className="py-24 bg-gradient-to-br from-golden/20 via-sage/20 to-spiritual/20 relative overflow-hidden scroll-mt-20">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-32 h-32 bg-golden/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-sage/10 rounded-full blur-3xl" />

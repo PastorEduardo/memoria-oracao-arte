@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Book, Palette, Printer, Heart } from "lucide-react";
 const BenefitsSection = () => {
-  return <section className="py-16 sm:py-24 bg-gradient-section">
+  return <section id="beneficios" className="py-16 sm:py-24 bg-gradient-section scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">

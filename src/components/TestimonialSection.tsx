@@ -1,6 +1,6 @@
 import motherChildReading from "@/assets/mother-child-reading.jpg";
 const TestimonialSection = () => {
-  return <section className="py-16 sm:py-24 bg-gradient-section">
+  return <section id="metodo" className="py-16 sm:py-24 bg-gradient-section scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header centralizado */}
         <div className="text-center mb-12 sm:mb-16">
