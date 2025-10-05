@@ -1,14 +1,7 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { HelpCircle, Download, Printer, ShoppingCart, FileText, Palette } from "lucide-react";
-
 const FAQSection = () => {
-  return (
-    <section className="py-16 sm:py-24 bg-background">
+  return <section className="py-16 sm:py-24 bg-background">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary mb-4 sm:mb-6 px-2">
@@ -20,10 +13,7 @@ const FAQSection = () => {
         </div>
         
         <Accordion type="single" collapsible className="space-y-3 sm:space-y-4">
-          <AccordionItem 
-            value="item-0"
-            className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2"
-          >
+          <AccordionItem value="item-0" className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2">
             <AccordionTrigger className="text-left hover:no-underline py-4 sm:py-6">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-golden to-sage rounded-xl flex items-center justify-center flex-shrink-0">
@@ -41,10 +31,7 @@ const FAQSection = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem 
-            value="item-1"
-            className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2"
-          >
+          <AccordionItem value="item-1" className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2">
             <AccordionTrigger className="text-left hover:no-underline py-4 sm:py-6">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-golden to-sage rounded-xl flex items-center justify-center flex-shrink-0">
@@ -62,10 +49,7 @@ const FAQSection = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem 
-            value="item-2"
-            className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2"
-          >
+          <AccordionItem value="item-2" className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2">
             <AccordionTrigger className="text-left hover:no-underline py-4 sm:py-6">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-golden to-sage rounded-xl flex items-center justify-center flex-shrink-0">
@@ -83,10 +67,7 @@ const FAQSection = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem 
-            value="item-3"
-            className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2"
-          >
+          <AccordionItem value="item-3" className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2">
             <AccordionTrigger className="text-left hover:no-underline py-4 sm:py-6">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-golden to-sage rounded-xl flex items-center justify-center flex-shrink-0">
@@ -104,10 +85,7 @@ const FAQSection = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem 
-            value="item-4"
-            className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2"
-          >
+          <AccordionItem value="item-4" className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2">
             <AccordionTrigger className="text-left hover:no-underline py-4 sm:py-6">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-golden to-sage rounded-xl flex items-center justify-center flex-shrink-0">
@@ -119,16 +97,11 @@ const FAQSection = () => {
               </div>
             </AccordionTrigger>
             <AccordionContent className="pb-4 sm:pb-6 pl-10 sm:pl-16 pr-2 sm:pr-4">
-              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Sim! Todas as capas foram ilustradas especialmente para esta coleção, usando técnicas tradicionais de aquarela com temática bíblica inspiradora.
-              </p>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Sim! Todas as capas foram ilustradas especialmente para esta coleção, usando técnicas tradicionais de aquarela digital com temática bíblica inspiradora.</p>
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem 
-            value="item-5"
-            className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2"
-          >
+          <AccordionItem value="item-5" className="bg-card/60 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 px-3 sm:px-6 py-1 sm:py-2">
             <AccordionTrigger className="text-left hover:no-underline py-4 sm:py-6">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-golden to-sage rounded-xl flex items-center justify-center flex-shrink-0">
@@ -158,8 +131,6 @@ const FAQSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FAQSection;
