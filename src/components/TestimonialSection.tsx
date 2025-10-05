@@ -42,6 +42,9 @@ const TestimonialSection = () => {
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                   Salmos são <strong>poesias</strong>. Ao recitá-los, transmita a emoção do texto para que a criança sinta cada palavra.
+                  Toda mãe cristãs quer ver seus filhos apaixonados pela Palavra — mas enfrentam um desafio: as crianças parecem mais interessadas nas telas do que na Bíblia.
+                  O problema não é falta de fé. É a forma como tentamos ensinar. A maioria dos materiais infantis simplifica demais as Escrituras para que as crianças entendão tudo, isso acaba diluindo sua força e profundidade.
+                  Mas antes de entender, é preciso guardar. Antes de explicar, é preciso plantar.
                 </p>
               </div>
               
