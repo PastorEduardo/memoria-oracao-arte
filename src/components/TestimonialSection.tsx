@@ -29,8 +29,11 @@ const TestimonialSection = () => {
           
           <div className="order-1 lg:order-2 flex flex-col justify-between">
             {/* Parágrafo introdutório ao método CRER */}
-            <p className="text-base text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-center sm:text-lg">
-              A coleção "Memória & Oração" está fundamentada em uma verdade: tudo o que uma mãe precisa para plantar sementes de fé no coração dos filhos é CRER. Mais do que acreditar, CRER é um método simples e transformador:
+             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-6 sm:mb-8">
+              A coleção <strong>Memória & Oração</strong> está fundamentada em uma verdade: Tudo o que uma mãe precisa para plantar sementes de fé no coração dos filhos é CRER.
+            </p>
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-6 sm:mb-8">
+            Mais do que acreditar, <strong>C.R.E.R.</strong> é um método simples e transformador, endenda:
             </p>
             
             <div className="space-y-4 sm:space-y-5">
